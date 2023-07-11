@@ -21,7 +21,7 @@ Algoritmo Pokemon
 		// Se asigna el valor aumentado en uno (+1) en'azar()'
 		// para que tomo los valores del 0 al numero indicado menos 1
 		
-		Escribir 'Vida de Pikachu: ', vidaPikachu, ' HP'
+		Escribir 'Vida  de Pikachu: ', vidaPikachu, ' HP'
 		Escribir 'Vida de Jigglypuff: ', vidaJigglypuff, ' HP'
 		
 	Mientras vidaPikachu >= 0 & vidaJigglypuff >= 0 Hacer
@@ -39,7 +39,7 @@ Algoritmo Pokemon
 				
 				 vidaPikachu <- vidaPikachu - ataqueJigglypuff
 				
-			    Escribir 'Ataque de Jigglypuff: -', ataqueJigglypuff
+			    Escribir 'Ataque de loss Jigglypuff: -', ataqueJigglypuff
 			    Escribir 'Vida de Pikachu restante: ', vidaPikachu, ' HP'
 				tumo <- 6
 					
