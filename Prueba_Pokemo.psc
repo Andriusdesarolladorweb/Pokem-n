@@ -2,7 +2,7 @@ Algoritmo Prueba_Pokemo
 		
 
 		
-		Para i<-1 Hasta 2 Con Paso 1 Hacer		
+		Para i<-1 Hasta 1 Con Paso 1 Hacer		
 			Escribir "_¶___________¶¶¶";
 			Escribir "_¶¶__________¶__¶";
 			Escribir "¶__¶_________¶___¶";
@@ -28,14 +28,29 @@ Algoritmo Prueba_Pokemo
 			Escribir "___¶__¶¶________¶¶____¶";
 			Escribir "___¶__¶___________¶____¶¶";
 			Escribir "__¶¶¶¶_____________¶¶¶¶¶¶¶¶";
-			Escribir "Bienbenido, Escribe tu nombre "
-			leer nombre
 			
+			Escribir "Bienbenido, Escribe tu nombre "
+			Leer nombre
+			Escribir Concatenar( "Tu nombre es ? "  nombre)
+			Escribir "1:si ", "2:no"
+			
+			Leer  respuesta 
+			
+			Segun  respuesta hacer 
+				1: 
+					Escribir Concatenar( "Bienbenido "  nombre)
+				
+				de otro modo: 
+					escribir "Escribe tu nombre nuevamente "
+					
+					
+					
+			FinSegun
 			Escribir "Mantenga presionado cualquier boton hasta que carga completo";
 			Escribir "";
-			Escribir "                     CARGANDO ",cont,"%";
+			Escribir "            CARGANDO ",cont,"%";
 			cont=cont+5;
-			Esperar 1 Segundos;
+			Esperar 2 Segundos;
 			Limpiar Pantalla;		
 			
 			Escribir "_¶___________¶¶¶";
